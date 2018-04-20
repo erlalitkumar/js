@@ -1,0 +1,9 @@
+node_modules/
+.project
+.metadata
+bin/
+dist/
+tmp/
+*.tmp
+*.bak
+*.swp
