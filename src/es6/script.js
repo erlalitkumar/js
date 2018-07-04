@@ -1,4 +1,8 @@
 // new es6 class syntax
+import '../css/main.css';
+import Person from './scprit1';
+
+
 class User {
   constructor(username, email, password) {
     this.username = username;
@@ -58,4 +62,7 @@ function test() {
 }
 // spread operator or in java vararg
 test(...args, ...args2);
+
+const person = new Person('Jhon');
+console.log(person);
 
