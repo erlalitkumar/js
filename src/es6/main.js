@@ -1,7 +1,7 @@
 // new es6 class syntax
 import '../css/main.css';
 import Person from './scprit1';
-import './callback';
+import './promise';
 
 class User {
   constructor(username, email, password) {

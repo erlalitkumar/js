@@ -2,7 +2,7 @@ const path = require('path');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-  entry: './src/es6/script.js',
+  entry: './src/es6/main.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
