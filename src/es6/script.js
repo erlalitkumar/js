@@ -1,7 +1,7 @@
 // new es6 class syntax
 import '../css/main.css';
 import Person from './scprit1';
-
+import './callback';
 
 class User {
   constructor(username, email, password) {
@@ -29,7 +29,7 @@ class Member extends User {
   }
 
   getpackage() {
-    console.log(`${this.username}is subscribed to the ${this.package}`);
+    console.log(`${this.username} is subscribed to the ${this.package}`);
   }
 }
 
