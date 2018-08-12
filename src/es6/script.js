@@ -26,3 +26,6 @@ class Member extends User {
 const mike = new Member('mike', 'mike@gmail', '1234', 'standard');
 mike.getpackage();
 mike.register();
+let name = 'jhon';
+name = 'doe';
+console.log(name);
