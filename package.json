@@ -28,11 +28,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "request": "^2.87.0"
-=======
-    "request": "^2.85.0",
+    "request": "^2.87.0",
     "webpack": "^4.14.0"
->>>>>>> dcbeaeeae50bc6f5f2c7bccfa347370faa5fb312
   }
 }
